@@ -37,10 +37,36 @@
 # thislist.sort(reverse=True)
 # print(thislist)
 
-def myfunc(n):
-    return abs(n - 50)
+# def myfunc(n):
+#     return abs(n - 50)
 
 
-thislist = [100, 50, 65, 82, 23]
-thislist.sort(key=myfunc)
-print(thislist)
+# thislist = [100, 50, 65, 82, 23]
+# thislist.sort(key=myfunc)
+# print(thislist)
+
+# # note the double round-brackets
+# thistuple = tuple(("apple", "banana", "cherry", "cherry"))
+# print(thistuple)
+
+# thisset = {"apple", "banana", "cherry"}
+# print(thisset)
+
+# thisset = {"apple", "banana", "cherry", "apple"}
+# print(len(thisset))
+
+# thisdict = {
+#     "brand": "Ford",
+#     "model": "Mustang",
+#     "year": 1964
+# }
+# print(thisdict["year"])
+
+thisdict = {
+    "brand": "Ford",
+    "electric": False,
+    "year": 1964,
+    "colors": ["red", "white", "blue"]
+}
+# print(thisdict)
+print(thisdict.get("colors"[1]))
